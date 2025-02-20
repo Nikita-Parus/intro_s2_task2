@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bug report</title>
+</head>
+<body>
+    <form>
+        <label for="name">Bug title</label>
+        <input type="text" name="title" id="title">
+        <br>
+        <label for="desc">Issue description</label>
+        <textarea name="desc" id="desc"></textarea>
+        <br>
+        <label for="OS">Operating system</label>
+        <select name="OS" id="OS">
+            <option>Windows</option>
+            <option>Linux</option>
+            <option>MacOS</option>
+            <option>TempleOS</option>
+        </select>
+        <fieldset>
+            <legend for="browser">Browser:</legend>
+            <label>Internet Explorer</label>
+            <input type="radio" name="browser" value="ie">
+            <br>
+            <label>Chrome</label>
+            <input type="radio" name="browser" value="chrome">
+            <br>
+            <label>Firefox</label>
+            <input type="radio" name="browser" value="firefox">
+            <br>
+            <label>Safari</label>
+            <input type="radio" name="browser" value="safari">
+            <br>
+            <label>Opera</label>
+            <input type="radio" name="browser" value="opera">
+            <br>
+            <label>Other</label>
+            <input type="radio" name="browser" value="other">
+            <input type="text" name="other_browser">
+        </fieldset>
+        <label>Assigned to</label>
+        <select name="ass-to" id="ass-to">
+            <option>---</option>
+        </select>
+        <br>
+        <label>Priority</label>
+        <select name="priority" id="priority">
+            <option>---</option>
+        </select>
+        <br>
+        <label>Screenshot</label>
+        <input type="file" name="screenshot" id="screenshot">
+        <br>
+        <label>Status</label>
+        <select name="status" id="status">
+            <option>---</option>
+        </select>
+        <br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
